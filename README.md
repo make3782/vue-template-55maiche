@@ -1,21 +1,10 @@
-# front-end.sale.55maiche.com
-
-> A Vue.js project
-
-## Build Setup
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+# 基本框架完善，可以作为其他项目的基础模板
+- 基于官方`webpack`模板
+- 增加`vuex`支持
+- 增加`api`,`http`功能，可以使用ajax功能
+- 增加`filter`与`global`的公用JS
+- 增加`Mint`框架，并使用分模块加载
+- 公用文件增加`momentJS`，注意其他项目使用配套更新相关URL
+- 公用CSS为`global.css`
+- 增加`alpha`环境配置文件，可以有一个测试环境，以`prod`发布为参考
+- 其他以创美惠惠购为原型的一些基础可能框架
